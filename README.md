@@ -1,30 +1,41 @@
-# React + TypeScript + Vite
+# QuizCraft 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+QuizCraft is a full-stack web application that provides an interactive platform for users to take quizzes on various topics and read related blog articles for a deeper understanding. 
 
-Currently, two official plugins are available:
+## Table of Contents 📚
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Technology Stack](#technology-stack)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Expanding the ESLint configuration
+## Features 🎯
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Wide range of quizzes on various topics
+- Quizzes of different difficulty levels
+- Instant feedback on quiz answers
+- Related blog articles for further reading
+- User authentication
 
-- Configure the top-level `parserOptions` property like this:
+## Technology Stack 💻
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- Frontend: React.js, Material Tailwind, Tailwind CSS, Redux
+- Backend: Node.js, Express.js, Zod
+- Database: MongoDB
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Getting Started 🚀
+
+<!-- Replace # with the actual commands -->
+1. Clone the repository: `git clone https://github.com/yourusername/quizcraft.git`
+2. Install dependencies: `cd quizcraft && npm install`
+3. Start the server: `npm start`
+4. Visit the application: Open `http://localhost:5371` in your browser
+
+## Contributing 🤝
+
+We welcome contributions to QuizCraft! Please see our [Contributing Guide](#) for more details.
+
+## License 📄
+
+QuizCraft is licensed under the [MIT License](#). <!-- Replace # with the link to your license -->
