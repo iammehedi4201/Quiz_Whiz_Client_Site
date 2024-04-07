@@ -1,4 +1,4 @@
-# QuizCraft 🚀
+# QuizWhiz 🚀
 
 QuizCraft is a full-stack web application that provides an interactive platform for users to take quizzes on various topics and read related blog articles for a deeper understanding. 
 
